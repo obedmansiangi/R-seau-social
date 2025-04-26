@@ -1,0 +1,42 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-size: 16px;
+    color: #000000;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.67);
+    transition: color .3s;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C3E50;
+    height: 65px;
+    padding: 20px 30px;
+    align-items: center;
+}
+.header .logo {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: white;
+}
+.header .nav-bar a{
+    text-transform: capitalize;
+    margin: 20px;
+    font-size: 1.1rem;
+}
+.header .nav-bar a:hover,
+.nav-bar a.active{
+    color:white ;
+}
+.main{
+    display: flex;
+    padding: 30px 200px;
+}
+
